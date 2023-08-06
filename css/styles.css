@@ -306,7 +306,8 @@ button {
   text-align: center;
 }
 /* Footer */
-.footer-container {
+.footer-container-footer {
+
 }
 .footer-finish {
   background-color: #2e2f42;
@@ -314,7 +315,7 @@ button {
   height: 312px;
   padding: 100px 0;
 }
-.footer-logo_footer {
+.footer-logo-finish {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -337,7 +338,7 @@ button {
   color: #f4f4fd;
 }
 
-.footer-page {
+.footer-page-text {
   color: var(--cloud, #f4f4fd);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
