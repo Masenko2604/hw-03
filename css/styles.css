@@ -307,13 +307,12 @@ button {
 }
 /* Footer */
 .footer-container-footer {
-
 }
 .footer-finish {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
-  padding: 100px 0;  
+  padding: 100px 0;
 }
 
 .footer-logo-finish {
@@ -370,6 +369,10 @@ button {
   color: #4d5ae5;
   cursor: pointer;
   background: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .filter-list-btn-list:hover,
