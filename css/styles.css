@@ -73,9 +73,10 @@ font-family: inherit;
 cursor: pointer;  
 }
 
-.header-container {
+.header-container-header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
   display: flex;
@@ -132,6 +133,7 @@ gap: 40px;
 .header-address {  
   font-style: normal;    
   margin-left: auto;
+  gap: 40px;
 }
 
 .header-address-list-item {
@@ -244,7 +246,7 @@ padding: 120px 0;
   margin-bottom: 72px;
    
 }
-.doing-list {
+.doing-list-list {
   display: flex;
   gap: 24px;
 }
@@ -257,8 +259,12 @@ padding: 120px 0;
 /* Team card */
 
 
-.team {   
-  padding-bottom: 120px;
+.team {  
+  padding: 120px 0;
+}
+.team-card-position {
+  padding: 32px 0;
+
 }
 
 .team-title-list {
@@ -284,21 +290,23 @@ padding: 120px 0;
 .team-list-img {
   background-color: #FFFFFF;
   width: calc((100% - 48px) / 3);
+  border-radius: 0px 0px 4px 4px;
 }
-.team-list-caption {
-  color: var(--navyblue, #2E2F42);
-  text-align: center;      
+.team-list-position {
+  color: var(--navyblue, #2E2F42);       
   font-family: Roboto;
   font-size: 20px; 
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em; 
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-list-text{
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: center; 
   
   
 }
