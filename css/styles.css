@@ -150,7 +150,7 @@ gap: 40px;
 }
 .address-list {
   display: flex;
-  gap: 40px;
+  
 }
 
 
@@ -250,16 +250,17 @@ padding: 120px 0;
 }
 
 .doing-list-img {  
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 72px) / 4);
    
 }
 
 /* Team card */
 
 
-.team {
-  background-color: #F4F4FD; 
+.team {   
+  padding-bottom: 120px;
 }
+
 .team-title-list {
   color: var(--navyblue, #2E2F42);
   text-align: center;       
@@ -270,17 +271,19 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-transform: capitalize;  
   background-color: #FFFFFF;
+  margin-bottom: 72px;
   
  
 }
-.team-list {
-  background-color: #FFFFFF;
+.team-list {  
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 24px;
 }
 
 .team-list-img {
   background-color: #FFFFFF;
-
+  width: calc((100% - 48px) / 3);
 }
 .team-list-caption {
   color: var(--navyblue, #2E2F42);
@@ -295,10 +298,15 @@ padding: 120px 0;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  text-align: center;
+  
+  
 }
 /* Footer */
-.footer {
+.footer-container {
   background-color:  #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 .footer-logo_footer {
   color: var(--iris, #4D5AE5);
@@ -310,14 +318,22 @@ padding: 120px 0;
   text-transform: uppercase;  
   list-style: none;
   line-height: 1.17; 
-  background-color:  #2e2f42;
+  background-color:  #2e2f42; 
+  margin-top: 102px;
+  margin-right: 1169px;  
+  margin-left: 200px;
+  margin-bottom: 18px;
+  
+  
+ 
   
  
 }
 .footer-logo-dark {  
   text-transform: uppercase; 
   color: #2e2f42;
-  color: #f4f4fd; 
+  color: #f4f4fd;
+  
 }
 
 .footer-page {
@@ -328,6 +344,14 @@ padding: 120px 0;
   font-weight: 400;
   line-height: 1.5; 
   letter-spacing: 0.02em;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  margin-right: 1020px;
+  margin-left: 156px;
+  
+ 
+ 
 }
 /* Portfolij */
 
@@ -365,9 +389,6 @@ padding: 120px 0;
   list-style: none;
   text-decoration: none;
 
-}
-.projects-list-img {
-background:  
 }
 
 .projects-card-caption {   
