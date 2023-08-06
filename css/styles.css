@@ -72,11 +72,13 @@ button {
 font-family: inherit;
 cursor: pointer;  
 }
-
+.header-start {
+border-bottom: 1px solid #e7e9fc;
+}
 .header-container-header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+  
 }
 .navigation {
   display: flex;
@@ -120,7 +122,8 @@ gap: 40px;
   color: #2e2f42;
   list-style: none;
   padding: 24px 0;
-  display: block;  
+  display: block;
+  gap: 40px;  
 }
 
 .pages-list-item:hover,
