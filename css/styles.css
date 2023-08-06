@@ -313,8 +313,9 @@ button {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
-  padding: 100px 0;
+  padding: 100px 0;  
 }
+
 .footer-logo-finish {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
