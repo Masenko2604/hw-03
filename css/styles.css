@@ -405,10 +405,10 @@ button {
 }
 
 /* Projects */
-.projects-card {
+.projects-card-worker {
   text-decoration: none;
 }
-.projects-card-item {
+.projects-card-link {
   list-style: none;
   text-decoration: none;
 }
