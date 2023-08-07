@@ -346,6 +346,12 @@ button {
   max-width: 264px;
 }
 /* Portfolij */
+.container-section {
+}
+.portfolio-main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 /* Filter */
 .filters-section {
