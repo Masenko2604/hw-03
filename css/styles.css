@@ -287,6 +287,8 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 .team-card-name {
+  width: 232px;
+  height: 56;
   padding: 32px 0;
 }
 .team-list-position {
@@ -353,9 +355,13 @@ button {
 }
 
 /* Filter */
+
+.container-section-main {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .filters-section-filter {
-  padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .filter-list-btn-list {
