@@ -306,7 +306,7 @@ button {
   text-align: center;
 }
 /* Footer */
-.footer-container-footer {
+.footer-container {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
@@ -330,6 +330,7 @@ button {
   margin-right: 1169px;
   margin-left: 200px;
   margin-bottom: 16px;
+  padding: 100px 0;
 }
 
 .footer-logo-link {
