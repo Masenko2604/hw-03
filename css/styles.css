@@ -306,16 +306,16 @@ button {
   text-align: center;
 }
 /* Footer */
-.footer-container {
+.footer-finish {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
   padding: 100px 0;
 }
-.footer-container-finish {
+.footer-container-footer {
 }
 
-.footer-logo-finish {
+.footer-logo-link {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -331,10 +331,6 @@ button {
   margin-left: 200px;
   margin-bottom: 16px;
   padding: 100px 0;
-}
-
-.footer-logo-link {
-  display: inline-block;
 }
 
 .footer-logo-dark {
