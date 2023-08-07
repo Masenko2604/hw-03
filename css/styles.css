@@ -308,8 +308,6 @@ button {
 /* Footer */
 .footer-finish {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
   padding: 100px 0;
 }
 .footer-container-footer {
@@ -326,11 +324,7 @@ button {
   list-style: none;
   line-height: 1.17;
   background-color: #2e2f42;
-  margin-top: 102px;
-  margin-right: 1169px;
-  margin-left: 200px;
   margin-bottom: 16px;
-  padding: 100px 0;
   display: inline-block;
 }
 
@@ -349,10 +343,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   border: none;
-  margin-bottom: 20px;
-  margin-top: 18px;
-  margin-right: 1020px;
-  margin-left: 156px;
   max-width: 264px;
 }
 /* Portfolij */
