@@ -25,7 +25,9 @@
   --primavery-filter-btn-color: #4d5ae5;
   --primavery-background-filter-color: #f4f4fd;
   --primavery-caption-color: #2e2f42;
+  --primavery-border-color: 1px solid #e7e9fc;
 }
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -386,13 +388,17 @@ button {
   color: #4d5ae5;
   cursor: pointer;
   background: #f4f4fd;  
-  justify-content: center;     
+  justify-content: center; 
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;    
 }
 
 .filter-list-btn-list:hover,
 .filter-list-btn-list:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .filter-list-btn {
   color: #4d5ae5;
