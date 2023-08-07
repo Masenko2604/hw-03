@@ -310,9 +310,9 @@ button {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
+  padding: 100px 0;
 }
 .footer-container-finish {
-  padding: 100px 0;
 }
 
 .footer-logo-finish {
@@ -330,12 +330,17 @@ button {
   margin-right: 1169px;
   margin-left: 200px;
   margin-bottom: 16px;
+}
+
+.footer-logo-link {
   display: inline-block;
 }
+
 .footer-logo-dark {
   text-transform: uppercase;
   color: #2e2f42;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-page-text {
@@ -343,7 +348,6 @@ button {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   border: none;
