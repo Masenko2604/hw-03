@@ -357,11 +357,12 @@ button {
 /* Filter */
 
 .container-section-main {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 .filters-section-filter {
+  align-items: center;
+  gap: 24px;
+  display: inline-flex;
+  align-items: flex-start;
 }
 
 .filter-list-btn-list {
