@@ -257,7 +257,7 @@ button {
 /* Team card */
 
 .team {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .team-card-position {
   padding: 32px 0;
@@ -307,8 +307,6 @@ button {
 }
 /* Footer */
 .footer-container-footer {
-}
-.footer-finish {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
