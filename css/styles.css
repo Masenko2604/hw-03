@@ -356,13 +356,19 @@ button {
 
 /* Filter */
 
-.container-section-main {
+.filters-section-filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .container-section-filter {
   align-items: center;
   gap: 24px;
   display: inline-flex;
   align-items: flex-start;
+     
+}
+.btn-list-filter {
+  
 }
 
 .filter-list-btn-list {
@@ -381,6 +387,7 @@ button {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  justify-content: center;
 }
 
 .filter-list-btn-list:hover,
