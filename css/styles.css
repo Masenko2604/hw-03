@@ -331,6 +331,7 @@ button {
   margin-left: 200px;
   margin-bottom: 16px;
   padding: 100px 0;
+  display: inline-block;
 }
 
 .footer-logo-dark {
