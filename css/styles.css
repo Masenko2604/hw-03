@@ -412,13 +412,7 @@ button {
 .projects-card-link {
   list-style: none;
   text-decoration: none;
-}
-
-.projects-card {
   width: calc((100% - 48px) / 3);
-}
-
-.projects-list-img {
 }
 
 .container-projects-card {
