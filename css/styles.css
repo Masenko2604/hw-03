@@ -362,8 +362,6 @@ button {
 .container-section-filter {
   align-items: center;
   gap: 24px;
-  display: inline-flex;
-  align-items: flex-start;
 }
 .btn-list-filter {
   display: flex;
@@ -395,9 +393,6 @@ button {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
-}
-.filter-list-btn {
-  color: #4d5ae5;
 }
 
 /* Projects */
